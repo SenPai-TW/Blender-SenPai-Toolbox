@@ -1,4 +1,4 @@
-# 🛠️ 學長的工具箱 SenpaiToolBox (Blender Add-on)
+# 🛠️ 學長的工具箱 SenPaiToolBox (Blender Add-on)
 
 一個專為 Blender 3D 美術、動畫師與遊戲開發者打造的自動化工具箱。一鍵整合了貼圖打包、材質管理、動畫烘焙與導出等五大核心功能，完全相容於 Blender 4.x 與 5.x 新版動畫系統。
 
@@ -44,13 +44,13 @@
 
 ## 💾 安裝與使用指南
 
-1. **取得腳本**：下載本倉庫中的 `senpai_toolbox.py`。
+1. **取得腳本**：下載本倉庫中的 `SenPai_toolbox.py`。
 2. **安裝套件**：
    * 開啟 Blender，前往頂部選單 `Edit` -> `Preferences` (偏好設定)。
    * 切換到 `Add-ons` (擴充套件) 標籤頁，點擊右上角的 `Install...` (安裝)。
-   * 選擇 `senpai_toolbox.py` 檔案並點擊安裝。
-3. **啟用套件**：在列表中勾選啟用 **"Object: 學長的工具箱 SenpaiToolBox"**。
-4. **快速啟動**：回到 Blender 3D 視圖（3D Viewport），按下鍵盤的 **`N` 鍵**，即可在右側側邊欄看到 **「學長的工具箱 SenpaiToolBox」** 面板，展開後即可一鍵使用五大功能！
+   * 選擇 `SenPai_toolbox.py` 檔案並點擊安裝。
+3. **啟用套件**：在列表中勾選啟用 **"Object: 學長的工具箱 SenPaiToolBox"**。
+4. **快速啟動**：回到 Blender 3D 視圖（3D Viewport），按下鍵盤的 **`N` 鍵**，即可在右側側邊欄看到 **「學長的工具箱 SenPaiToolBox」** 面板，展開後即可一鍵使用五大功能！
 
 ---
 
@@ -61,7 +61,7 @@
 ```text
 your-repo-name/
 ├── README.md               # 本說明文件
-├── senpai_toolbox.py       # 整合了五大功能的 v1.8 終極穩定版 Add-on 主程式
+├── SenPai_toolbox.py       # 整合了五大功能的 v1.8 終極穩定版 Add-on 主程式
 └── individual_scripts/     # (選用) 當初開發時的獨立單項功能腳本
     ├── pack_textures.py
     ├── rename_materials.py
