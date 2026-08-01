@@ -1,9 +1,9 @@
 bl_info = {
-    "name": "學長的工具箱 SenpaiToolBox",
-    "author": "Senpai Developer",
+    "name": "學長的工具箱 SenPaiToolBox",
+    "author": "SenPai Developer",
     "version": (1, 8),  # 已更新至 V1.8
     "blender": (4, 0, 0),  # 完全相容 Blender 4.x 與 5.x 核心新版系統
-    "location": "View3D > Sidebar > 學長的工具箱 SenpaiToolBox Tab",
+    "location": "View3D > Sidebar > 學長的工具箱 SenPaiToolBox Tab",
     "description": "一鍵整合五大功能：序列貼圖打包、材質與物件同名、ABC動畫轉ShapeKey、多Action獨立輸出FBX、動態 Flipbook 網格生成器",
     "category": "Object",
 }
@@ -468,11 +468,11 @@ class TOOLBOX_OT_MakeFlipbook(bpy.types.Operator):
 
 
 class TOOLBOX_PT_MainPanel(bpy.types.Panel):
-    bl_label = "學長的工具箱 SenpaiToolBox"
+    bl_label = "學長的工具箱 SenPaiToolBox"
     bl_idname = "TOOLBOX_PT_MainPanel"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = '學長的工具箱 SenpaiToolBox'
+    bl_category = '學長的工具箱 SenPaiToolBox'
     
     def draw(self, context):
         layout = self.layout
